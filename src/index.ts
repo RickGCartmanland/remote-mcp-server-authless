@@ -3,7 +3,7 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { z } from "zod";
 
 // Base API URL for FreeTable
-const FREETABLE_API_BASE = "https://remote-mcp-server-authless.richieede.workers.dev";
+const FREETABLE_API_BASE = "https://free-table.gyurmatag.workers.dev/bookings";
 
 // Define our MCP agent with tools
 export class MyMCP extends McpAgent {
