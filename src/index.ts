@@ -3,7 +3,7 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { z } from "zod";
 
 // Base API URL for FreeTable
-const FREETABLE_API_BASE = "https://free-table.gyurmatag.workers.dev/bookings";
+const FREETABLE_API_BASE = "https://free-table.gyurmatag.workers.dev";
 
 // Define our MCP agent with tools
 export class MyMCP extends McpAgent {
